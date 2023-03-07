@@ -1,28 +1,49 @@
 \\\\\\   HOME_PAGE   \\\\\\
--   3 derniers articles les + récents
+-   3 derniers blogs les + récents
 -   Partie Libre
 
-    \\\\\\   LISTE_ARTICLES   \\\\\\
+    \\\\\\   BLOGS   \\\\\\
     -   Titre
     -   Contenu
     -   Img
+    -   Btn like
+    -   Vues
+    -   Commentaires
+    -   Btn Enregistrer (Bouton permettant d'enregistrer ou de désenregistrer)
 
 ______________________________________________________________________________________
 
 \\\\\\   NAVBAR   \\\\\\
--   Si connecter btn en plus :
-    -   Mes Article (Liste des articles du user connecter)
-    -   Poubelle (Supprimer les articles et POP_UP pour valider la supression)
-    -   BTN_Modifier (Modifier un articles)
-    -   UserName
-    -   Ajouter_Article
-    -   Menu_Burger (En Mobile)
+-   Menu_Burger (En Mobile)
+
+    \\\\\\   MENUBURGER   \\\\\\
+    -   SI PAS CONNECTER :
+        -   Blogs Enregistrer (Au click redirige sur LOGIN/REGISTER)
+        -   UserName (Par def: User)
+
+    -   SI CONNECTER :
+        -   Blogs Enregistrer (Liste des articles favoris du user connecter)
+        -   UserName
+
+        
+
+    \\\\\\   BLOGS_ENREGISTRER  \\\\\\
+    -   Listes des blogs que l'on a enregistrer
 
     \\\\\\   LOGIN/REGISTER  \\\\\\
+    -   Créer un compte
     -   Formulaire
     -   Pouvoir se deco si connecter
 
 ______________________________________________________________________________________
+
+\\\\\\   PROFIL   \\\\\\
+-   PP du user
+-   Name du user
+-   BIO du user
+-   Btn Ajouter une publication
+-   Blogs du user
+
 
 \\\\\\   ADMIN   \\\\\\
 -   Interface avec la liste des users
